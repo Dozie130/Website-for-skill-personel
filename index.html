@@ -13,6 +13,7 @@
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#jobs">Jobs</a></li>
+                <li><a href="#employers">Employers</a></li>
                 <li><a href="#apply">Apply</a></li>
             </ul>
         </nav>
@@ -30,11 +31,29 @@
                 <h3>Software Engineer</h3>
                 <p>Experience: 3+ years</p>
                 <p>Location: Remote</p>
+                <button class="apply-btn">Apply Now</button>
             </div>
             <div class="job-card">
                 <h3>Project Manager</h3>
                 <p>Experience: 5+ years</p>
                 <p>Location: New York</p>
+                <button class="apply-btn">Apply Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="employers">
+        <h2>Featured Employers</h2>
+        <div class="employer-list">
+            <div class="employer-card">
+                <h3>TechCorp</h3>
+                <p>Industry: Technology</p>
+                <p>Open Positions: 5</p>
+            </div>
+            <div class="employer-card">
+                <h3>BuildInc</h3>
+                <p>Industry: Construction</p>
+                <p>Open Positions: 3</p>
             </div>
         </div>
     </section>
@@ -49,10 +68,11 @@
             <textarea placeholder="Cover Letter" required></textarea>
             <button type="submit">Submit Application</button>
         </form>
+        <div id="success-message" class="hidden">Application submitted successfully!</div>
     </section>
 
     <footer>
-        <p>&copy; 2025 HirePro. All rights reserved.</p>
+        <p>© 2025 HirePro. All rights reserved.</p>
     </footer>
 
     <script src="script.js"></script>
